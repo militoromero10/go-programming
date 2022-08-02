@@ -8,6 +8,17 @@
 
 # Data types
 ```
+	Declaration: 
+		var name type = value -> attribute
+		name := value -> methods
+	
+	Constants Enumeration, iota is usefull working with enumerations
+	const {
+		First = iota
+		Second
+		Third
+	}
+
 	int, uint, uintptr
 
 	uint8, uint16, uint32, uint64
@@ -39,6 +50,7 @@
 # Structs and interfaces
 	- type name struct
 	- type name interface
+	- type name dataType
 
 # Concurrency
 	- go funcion
